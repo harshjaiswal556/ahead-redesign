@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 const Landing = () => {
   return (
-    <div className='bg-[#eeeafd] mt-4 rounded-3xl p-28 py-36 grid grid-cols-2'>
+    <div className='landing bg-[#eeeafd] mt-4 rounded-3xl p-28 py-36 grid grid-cols-2'>
       <motion.div initial={{
         x: -30, opacity: 0
       }} whileInView={{
@@ -30,6 +30,7 @@ const Landing = () => {
         <img
           src='/master.png'
           alt=''
+          className='landing-img'
         />
       </motion.div>
       <div></div>
