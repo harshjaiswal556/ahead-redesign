@@ -8,6 +8,7 @@ import StartATest from '@/components/StartATest'
 import OpenVacancy from '@/components/OpenVacancy'
 import Footer from '@/components/Footer'
 import SelfEmployement from '@/components/SelfEmployement'
+import Wondered from '@/components/Wondered'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <MeetAheadApp />
       <SelfEmployement />
       <BestEQ />
+      <Wondered />
       <StartATest />
       <OpenVacancy />
       <Footer />

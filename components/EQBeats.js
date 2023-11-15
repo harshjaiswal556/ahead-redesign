@@ -2,7 +2,7 @@ import React from 'react'
 
 const EQBeats = () => {
   return (
-    <div className='grid grid-cols-3 p-16 gap-x-16'>
+    <div className='grid grid-cols-3 p-16 gap-x-16 py-16'>
       <div className='text-5xl font-semibold'>EQ beats IQ</div>
       <div className='text-2xl font-normal'>
         People with high emotional intelligence (EQ) live more fulfilled lives.

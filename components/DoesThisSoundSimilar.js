@@ -2,7 +2,7 @@ import React from 'react'
 import "../app/globals.css"
 const DoesThisSoundSimilar = () => {
   return (
-    <div className='flex flex-col gap-4 px-16'>
+    <div className='flex flex-col gap-4 px-16 py-16'>
       <div className='text-4xl font-semibold'>Does this sound familiar ...</div>
 
 
