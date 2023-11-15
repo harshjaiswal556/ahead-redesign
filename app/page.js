@@ -7,6 +7,7 @@ import BestEQ from '@/components/BestEQ'
 import StartATest from '@/components/StartATest'
 import OpenVacancy from '@/components/OpenVacancy'
 import Footer from '@/components/Footer'
+import SelfEmployement from '@/components/SelfEmployement'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <EQBeats />
       <DoesThisSoundSimilar />
       <MeetAheadApp />
+      <SelfEmployement />
       <BestEQ />
       <StartATest />
       <OpenVacancy />
