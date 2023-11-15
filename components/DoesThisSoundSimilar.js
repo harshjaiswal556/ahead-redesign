@@ -8,7 +8,7 @@ const DoesThisSoundSimilar = () => {
 
       <div class="cards-wrapper">
         <div class="card card1">
-          <div class="emoji">😠</div>
+          <div class="emoji">🤔</div>
           <h3>You attend a class reunion</h3>
           <div>
             You compare yourself With your peers' achievements, instead Of
@@ -16,7 +16,7 @@ const DoesThisSoundSimilar = () => {
           </div>
         </div>
         <div class="card card2">
-          <div class="emoji">😠</div>
+          <div class="emoji">🥳</div>
           <h3>You are at a lively dinner party</h3>
           <div>
             You play on your phone, instead Of confidently approaching strangers
@@ -24,7 +24,7 @@ const DoesThisSoundSimilar = () => {
           </div>
         </div>
         <div class="card card3">
-          <div class="emoji">😠</div>
+          <div class="emoji">🙂</div>
           <h3>You hit dead end in a negotiation</h3>
           <div>
             You get nervous, frazzled, and frustrated, instead of staying
@@ -32,7 +32,7 @@ const DoesThisSoundSimilar = () => {
           </div>
         </div>
         <div class="card card4">
-          <div class="emoji">😠</div>
+          <div class="emoji">🥳</div>
           <h3>You are at a lively dinner party</h3>
           <div>
             You play on your phone, instead Of confidently approaching strangers
@@ -40,7 +40,7 @@ const DoesThisSoundSimilar = () => {
           </div>
         </div>
         <div class="card card5">
-          <div class="emoji">😠</div>
+          <div class="emoji">🤔</div>
           <h3>You attend a class reunion</h3>
           <div>
             You compare yourself With your peers' achievements, instead Of

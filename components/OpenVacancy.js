@@ -1,5 +1,11 @@
 import React from 'react'
 import "../app/globals.css"
+import { motion } from "framer-motion"
+
+const boxVarient = {
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.7, delay: 1 } },
+    hidden: { opacity: 0, scale: 0 }
+}
 const OpenVacancy = () => {
     return (
         <div className="openVacancy">
@@ -7,7 +13,7 @@ const OpenVacancy = () => {
                 Open vacancies
             </div>
             <div class="cards-wrapper px-16">
-                <div class="card card1">
+                <motion.div variants={boxVarient} initial="hidden" whileInView="visible" transition={{ delay: 1 }} class="card card1">
                     <h3>Senior Full-Stack Engineer</h3>
                     <div>
                         <ul>
@@ -16,8 +22,8 @@ const OpenVacancy = () => {
                             <li>€65-85k, 0.5-1.5% equity share options</li>
                         </ul>
                     </div>
-                </div>
-                <div class="card card2">
+                </motion.div>
+                <motion.div variants={boxVarient} initial="hidden" whileInView="visible" transition={{ delay: 1 }} class="card card2">
                     <h3>Senior Designer</h3>
                     <div>
                         <ul>
@@ -26,8 +32,8 @@ const OpenVacancy = () => {
                             <li>€65-85k, 0.5-1.5% equity share options</li>
                         </ul>
                     </div>
-                </div>
-                <div class="card card3">
+                </motion.div>
+                <motion.div variants={boxVarient} initial="hidden" whileInView="visible" transition={{ delay: 1 }} class="card card3">
                     <h3>Superstar Intern</h3>
                     <div>
                         <ul>
@@ -36,7 +42,7 @@ const OpenVacancy = () => {
                             <li>€65-85k, 0.5-1.5% equity share options</li>
                         </ul>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
 

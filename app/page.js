@@ -1,3 +1,5 @@
+"use client"
+
 import DoesThisSoundSimilar from '@/components/DoesThisSoundSimilar'
 import EQBeats from '@/components/EQBeats'
 import Landing from '@/components/Landing'

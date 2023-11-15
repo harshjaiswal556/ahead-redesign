@@ -26,6 +26,7 @@
 
 .card {
   padding: 25px 15px 25px 40px;
+  margin: 0 20px;
   border-radius: 20px;
   display: grid;
   place-content: center;

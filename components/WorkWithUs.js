@@ -1,19 +1,35 @@
 import React from 'react'
-
+import { motion } from "framer-motion"
 const WorkWithUs = () => {
     return (
         <div className='workWithUs bg-[#eeeafd] mt-4 rounded-3xl p-28 py-36 grid grid-cols-2'>
             <div className='flex flex-col gap-4'>
                 <div className='font-bold text-5xl'>
-                    Work with us
+                    <motion.div initial={{
+                        x: -100, opacity: 0
+                    }} whileInView={{
+                        x: 0, opacity: 1
+                    }} transition={{
+                        delay: 0.5,
+                        duration: 0.8,
+                    }}>
+                        Work with us
+                    </motion.div>
                     <div class="cards-wrapper1 py-10">
-                        <div class="card card-white">
+                        <motion.div initial={{
+                            y: 230, opacity: 0
+                        }} whileInView={{
+                            y: 0, opacity: 1
+                        }} transition={{
+                            delay: 0.5,
+                            duration: 1,
+                        }} class="card card-white">
                             <img src='/work.png' />
                             <h3>About</h3>
                             <div className='font-normal grey-text'>
                                 At ahead our goal is to make self-improvement fun and lasting. We know there's a way how to make it work. And that's what aHead is all about!
                             </div>
-                        </div>
+                        </motion.div>
                         <div class="card card-pink">
                             <h3>Product</h3>
                             <div className='font-normal grey-text'>
