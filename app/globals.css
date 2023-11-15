@@ -17,6 +17,13 @@
   padding-bottom: 1rem;
 }
 
+.cards-wrapper-ahead {
+  /* max-height: 200px;
+  padding-bottom: 1rem; */
+  max-height: 500px;
+  overflow-y: auto;
+}
+
 .card {
   padding: 25px 15px 25px 40px;
   border-radius: 20px;
@@ -31,8 +38,30 @@
   background-color: rgb(255, 230, 171)
 }
 
+.card-white {
+  background-color: #fff;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 80%;
+}
+
+.card-pink {
+  position: relative;
+  top: -13px;
+  background-color: rgb(255, 224, 239);
+  width: 80%;
+}
+
 .card2 {
   background-color: rgb(255, 179, 218)
+}
+
+.card-ahead {
+  background-color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  float: right;
+  margin-right: 60px;
+  text-align: left;
 }
 
 .card3 {
@@ -54,6 +83,10 @@
 
 .card .emoji {
   font-size: 2.2rem;
+}
+
+.cards-wrapper1 {
+  line-height: 1.7;
 }
 
 .center-vertical {
@@ -238,7 +271,7 @@
   }
 
   .timeline ul li .content h3 {
-    color: #34ace0;
+    color: #3448e0;
     font-size: 15px;
   }
 
@@ -246,4 +279,30 @@
 
 .wondered {
   text-align: center;
+}
+
+.workWithUs .grey-text {
+  margin-top: 10px;
+  font-size: 18px
+}
+
+.workWithUsRight {
+  /* align-items: right;
+  float: right; */
+  text-align: right;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+}
+
+.ahead-blue {
+  color: #3448e0;
+}
+
+.workWithUsRight .grey-text {
+  font-size: 16px;
+}
+
+.workWithUsRight h3 {
+  font-size: 18px;
 }

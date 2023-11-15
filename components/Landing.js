@@ -17,7 +17,6 @@ const Landing = () => {
       <img
         src='/master.png'
         alt=''
-      // className='max-w-[550px]'
       />
       <div></div>
     </div>

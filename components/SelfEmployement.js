@@ -19,26 +19,26 @@ const SelfEmployement = () => {
                             </div>
                         </li>
                         <li>
-                            <span>It's not as easy as 1-2-3</span>
+                            <span>Old habits are hard to break.</span>
                             <div class="content">
                                 <p>
-                                    The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).
+                                    And bad behaviors die hard. Fortunately, we give you great, science- backed techniques to use.
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <span>It's not as easy as 1-2-3</span>
+                            <span>You and your motivation don't have a long-term relationship.</span>
                             <div class="content">
                                 <p>
-                                    The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).
+                                    Luckily, we can proactively prepare you for the marathon, not just the race. Effective, memorable exerciseswill help you stick to your goals.
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <span>It's not as easy as 1-2-3</span>
+                            <span>Old habits are hard to break.</span>
                             <div class="content">
                                 <p>
-                                    The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).
+                                    And bad behaviors die hard. Fortunately, we give you great, science- backed techniques to use.
                                 </p>
                             </div>
                         </li>

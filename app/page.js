@@ -9,6 +9,7 @@ import OpenVacancy from '@/components/OpenVacancy'
 import Footer from '@/components/Footer'
 import SelfEmployement from '@/components/SelfEmployement'
 import Wondered from '@/components/Wondered'
+import WorkWithUs from '@/components/WorkWithUs'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <BestEQ />
       <Wondered />
       <StartATest />
+      <WorkWithUs />
       <OpenVacancy />
       <Footer />
     </div>
