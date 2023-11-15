@@ -4,15 +4,20 @@ This project is a redesign of the Ahead App using Next.js, featuring various ani
 
 ## Table of Contents
 - [Overview](#overview)
+- [Deployment](#deployment)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Animations](#animations)
-- [Deployment](#deployment)
+
 
 ## Overview
 
 The Ahead App Redesign is a Next.js project that aims to improve the visual appeal and functionality. By incorporating various animations, the user experience is enhanced, providing a modern and engaging interface.
+
+## Deployment
+
+The project is deployed on Vercel for easy access. You can view the live version at [Live Link](https://ahead-redesign-ebon.vercel.app/).
 
 ## Features
 
@@ -37,7 +42,5 @@ Once the development server is running, you can access the application at `http:
 
 The project utilizes various animations to create a dynamic and visually appealing user interface. These animations include [list the types of animations used, e.g., scroll animations, fade-ins, etc.].
 
-## Deployment
 
-The project is deployed on Vercel for easy access. You can view the live version at [your-vercel-url](vercel-url).
 
