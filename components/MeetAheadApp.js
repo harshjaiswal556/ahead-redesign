@@ -7,7 +7,7 @@ const MeetAheadApp = () => {
             <div className='font-bold text-7xl px-16'>
                 Meet the ahead app
             </div>
-            <div className='bg-[#eeeafd] mt-4 rounded-3xl grid grid-cols-2'>
+            <div className='center-vertical-img bg-[#eeeafd] mt-4 rounded-3xl grid grid-cols-2'>
                 <img
                     src='/meet.png'
                     alt=''
@@ -17,6 +17,7 @@ const MeetAheadApp = () => {
                         <p>
                             A personalized pocket coach that provides bite- sized, science-driven tools to boost emotional intelligence.
                         </p>
+                        <br></br>
                         <p>
                             Think of it as a pocket cheerleader towards a better, more fulfilling.
                         </p>

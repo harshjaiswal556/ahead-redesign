@@ -64,6 +64,78 @@
   justify-content: center;
 }
 
+.center-vertical-img {
+  display: grid;
+  grid-template-rows: minmax(70vh, 1fr);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .center-vertical p {
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.center-horizontal {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  max-width: 720px;
+}
+
+.startATest,
+.footer {
+  /* display: flex;
+  justify-content: center; */
+  margin: 50px 0px;
+  display: grid;
+  place-items: center;
+}
+
+.startATest .btn {
+  text-align: center;
+  width: 200px;
+}
+
+.openVacancy {
+  margin-bottom: 50px;
+}
+
+.openVacancy .card {
+  padding: 25px 15px 25px 40px;
+  border-radius: 20px;
+  display: grid;
+  place-content: center;
+  /* background-color: #d0f0ee; */
+  color: black;
+  width: 26.5rem
+}
+
+.openVacancy .card1 {
+  background-color: rgb(255, 230, 171)
+}
+
+.openVacancy .card2 {
+  background-color: rgb(255, 230, 171)
+}
+
+.openVacancy .card3 {
+  background-color: rgb(255, 230, 171)
+}
+
+.openVacancy .card h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.grey-text {
+  color: rgb(84, 84, 84);
+}
+
+.footer-logo {
+  margin-top: 20px;
+}
+
+.footer-logo-app {
+  margin: 20px 0px;
 }
