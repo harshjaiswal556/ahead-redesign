@@ -1,9 +1,17 @@
 import React from 'react'
 import "../app/globals.css"
+import { motion } from "framer-motion"
 const DoesThisSoundSimilar = () => {
   return (
     <div className='flex flex-col gap-4 px-16 py-16'>
-      <div className='text-4xl font-semibold'>Does this sound familiar ...</div>
+      <motion.div initial={{
+        x: -300, opacity: 0
+      }} whileInView={{
+        x: 0, opacity: 1
+      }} transition={{
+        delay: 1,
+        duration: 1
+      }} className='text-4xl font-semibold'>Does this sound familiar ...</motion.div>
 
 
       <div class="cards-wrapper">
